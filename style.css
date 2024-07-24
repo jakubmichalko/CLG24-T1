@@ -1,8 +1,9 @@
 nav {
 color: white;
 background: #914F1E;
-
+font-family: "Sofia Sans", sans-serif;
 }
+
 ul{
     list-style:none;
     display:flex;
@@ -12,3 +13,4 @@ ul{
 body{
 font-family:sans-serif;
 }
+
