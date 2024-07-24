@@ -1,4 +1,6 @@
-
+html{
+    padding: 40px;
+}
 ul{
     
     display:flex;
