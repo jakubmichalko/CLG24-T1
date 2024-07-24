@@ -1,8 +1,3 @@
-nav {
-color: white;
-background: #914F1E;
-font-family: "Sofia Sans", sans-serif;
-}
 
 ul{
     list-style:none;
@@ -15,4 +10,44 @@ ul{
 body {
     font-family: sans-serif;
     background-color: #E0D0C1;
+}
+nav {
+    color: #ffffff;
+    background: #914F1E;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin-right: 2%;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 1%;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#sides {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: start;
+
+}
+
+.n {
+    margin: 30px;
+}
+#packy{
+    width: 100px;
 }
