@@ -50,6 +50,7 @@ body {
     color: bisque;
     text-decoration: none;
     font-size: 25px;
+    transition-duration: 400ms;
 }
 
 
@@ -84,7 +85,7 @@ a:hover {
 }
 
 .n:hover {
-    transition-duration: 400ms;
+    
     transform: translateY(-5px);
 
 }
