@@ -29,11 +29,8 @@ h2 {
 
 }
 
-#komentare {
 
 
-
-}
 
 
 img {
@@ -46,4 +43,5 @@ img {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    flex-wrap: wrap;
 }
