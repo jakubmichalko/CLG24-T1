@@ -1,0 +1,16 @@
+.PSI {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.Dogs  {
+flex-basis: 30%;
+border-style: solid;
+border-width: 4px;
+border-color: rgb(204, 151, 85);
+margin: 2px;
+border-radius: 70px;
+padding:10px;
+}
