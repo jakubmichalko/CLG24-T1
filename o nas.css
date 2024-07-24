@@ -39,10 +39,16 @@ h2 {
 .img {
     width: 300px;
     height: 300px;
-    margin: 5px;
     object-fit: cover;
     float: right;
     clear: both;
+    flex-basis: 30%;
+    border-width: 4px;
+    margin: 2px;
+    border-radius: 70px;
+    flex-basis: 30%;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, .5);
+
 }
 
 .podSebou {
