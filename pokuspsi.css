@@ -14,3 +14,19 @@ margin: 2px;
 border-radius: 70px;
 padding:10px;
 }
+li{
+    margin: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+flex-basis: 30%;
+border-style: solid;
+border-width: 4px;
+margin: 2px;
+border-radius: 70px;
+}
+
