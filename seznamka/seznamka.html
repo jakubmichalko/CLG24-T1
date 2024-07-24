@@ -2,72 +2,58 @@
 <html lang="cs">
 
 <head>
-<link rel="stylesheet" src="../style.css"> 
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="seznamka.css">
 </head>
 
 <body>
 
-<nav>
-<ul>
-    <li><a href="onas.html"><img src="../obrazky/logo.png"></a></li>
-    <li>O nás</li>
-    <li>Seznamka</li>
-    <li>kontakty na útulky</li>
-</ul>
-</nav>
+    <nav>
+        <div id="logo">
+            <a href="onas.html" class="n"><img src="../obrazky/logo.png" id="packy">
+                <a href="onas.html" class="n" id="psindr">Psindr</a>
+        </div>
+        <div id="sides">
+            <li class="n"><a href="onas.html">O nás</a></li>
+            <li class="n"><a href="seznamka\seznamka.html">Seznamka</a></li>
+            <li class="n"><a href="utulkykontakt\kontakt.html">Naše útulky</a></li>
+        </div>
 
-<section class="app">
-    <aside class="sidebar">
-           <header>
-          Kategorie
-        </header>
-      <nav class="sidebar-nav">
-   
-        <ul class="bez">
-          <li>
-            <a href="#"><i class="category"></i> <span class="">Pohlaví</span></a>
-            <ul class="nav-flyout">
-              <li>
-                <a href="#"><i class="category">Pes</i> </a>
-              </li>
-              <li>
-                <a href="#"><i class="category"></i>Fena</a>
-              </li>
-          <li>
-            <a href="#"><i class="category"></i> <span class="">Věk</span></a>
-            <ul class="nav-flyout">
-              <li>
-                <a href="#"><i class="category"></i>do 5ti let</a>
-              </li>
-              <li>
-                <a href="#"><i class="category"></i>5 až 10 let</a>
-              </li>
-              <li>
-                <a href="#"><i class="category "></i>10 a víc let</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="#"><i class="category"></i> <span class="">Velikost</span></a>
-            <ul class="nav-flyout">
-              <li>
-                <a href="#"><i class="category"></i>malý </a>
-              </li>
-              <li>
-                <a href="#"><i class="category"></i>střední</a>
-              </li>
-              <li>
-                <a href="#"><i class="category"></i>velký</a>
-              </li>
-            </ul>
-          </li>    
-       </nav>
-    </aside>
-  </section>  
+    </nav>
 
-<footer>
-    
-    
-</footer>
+    <div class="nav1">
+
+        <div class="sidebar">
+            <div class="category">
+                <h3 id="h1">Pohlaví</h3>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                <ul class="subcategory">
+                    <li><a href="#">Pes</a></li>
+                    <li><a href="#">Fena</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Věk</h3>
+                <ul class="subcategory">
+                    <li><a href="#">pod 5 let</a></li>
+                    <li><a href="#">nad 5 let</a></li>
+                    <li><a href="#">nad 10 let</a></li>
+                </ul>
+            </div>
+            <div class="category">
+                <h3>Velikost</h3>
+                <ul class="subcategory">
+                    <li><a href="#">malý</a></li>
+                    <li><a href="#">střední</a></li>
+                    <li><a href="#">velký</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <footer></footer>
 
 </html>
