@@ -30,7 +30,7 @@ h2 {
 }
 
 #komentare {
-p;
+
 
 
 }
@@ -46,5 +46,4 @@ img {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    flex-wrap: wra
 }
