@@ -66,10 +66,11 @@ align-self: center;
 text-decoration: none;
 color: bisque;
 font-size: 35px; 
-font-family: "Adelica brush";
-src: ;
-font-weight: bold;
-  }
+font-family: "Caveat Brush", cursive;
+ font-weight: 400;
+ font-style: normal;
+  
+}
 
 a {
     text-decoration: none;
