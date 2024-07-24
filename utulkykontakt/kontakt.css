@@ -1,57 +1,51 @@
-img {
-    height: auto;
-    width: 700px;
-
-
+.podsebou {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-li {
-   
-}
-.podsebou{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-}
 h1 {
-    display: flex;
-    align-self: center;
-    font-family: 'Sofia Sans';
-    font-style: normal;
-    font-weight: 1 1000;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/sofiasans/v16/Yq6R-LCVXSLy9uPBwlATrO96kigt.woff2) format('woff2');
-    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-    font-size: 50px;
+  display: flex;
+  align-self: center;
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 1 1000;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sofiasans/v16/Yq6R-LCVXSLy9uPBwlATrO96kigt.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-size: 50px;
 }
 
-.packa {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  
-    li {
-      padding-left: 1rem;
-      text-indent: -0.7rem;
-    }
-  
-    li::before {
 
-    }
-  }
 
- ul{
-    list-style: none;
- }
- a:hover {
-    color: #914F1E;
- }
- 
- .Asd{
-    color: black;
- }
 
- .bullet {
-    width: 12px;
-    padding-right: 3px;
-  }
+a:hover {
+  color: #914F1E;
+}
+
+.Asd {
+  color: black;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  float: right;
+  clear: both;
+  flex-basis: 30%;
+  border-width: 4px;
+  margin: 2px;
+  border-radius: 70px;
+  flex-basis: 30%;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, .5);
+}
+
+.bullet {
+  width: 12px;
+  padding-right: 3px;
+}
+
