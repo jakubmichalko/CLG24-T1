@@ -25,7 +25,21 @@ h1 {
     font-size: 50px;
 }
 
+.packa {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+    li {
+      padding-left: 1rem;
+      text-indent: -0.7rem;
+    }
+  
+    li::before {
 
+    }
+  }
+  
  ul{
     list-style: none;
  }
@@ -36,3 +50,8 @@ h1 {
  .Asd{
     color: black;
  }
+
+ .bullet {
+    width: 12px;
+    padding-right: 3px;
+  }
