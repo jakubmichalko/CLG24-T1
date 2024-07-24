@@ -22,13 +22,21 @@ h2 {
 #hledani {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-#vybrani {}
+#vybrani {
+
+}
 
 #komentare {
     display: flex;
     flex-direction: column;
 }
 
+
+img {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+  }
