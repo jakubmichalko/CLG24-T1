@@ -1,0 +1,31 @@
+nav1 {
+    .sofia-sans {
+        font-family: "Sofia Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+}
+
+
+.sidebar {
+    width: 250px;
+    background: #DEAC80;
+    padding: 15px;
+    border: 1px solid #be936e;
+}
+.category {
+    margin-bottom: 20px;
+}
+.category h3 {
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #c89c75;
+}
+.subcategory {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+.subcategory li {
+    padding: 5px 0;
+}}
