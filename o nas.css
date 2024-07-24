@@ -17,8 +17,8 @@ h1 {
 
 .horizontalne {
     display: flex;
-flex-direction: row;
-justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 h2 {
@@ -31,9 +31,6 @@ h2 {
     flex-direction: column;
 }
 
-#vybrani {
-
-}
 
 
 
@@ -45,12 +42,45 @@ h2 {
     margin: 5px;
     object-fit: cover;
     float: right;
-    clear:both;
-  }
+    clear: both;
+}
 
 .podSebou {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+
+
+
+.packa {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+    li {
+      padding-left: 1rem;
+      text-indent: -0.7rem;
+    }
+  
+    li::before {
+
+    }
+  }
+
+  .bullet {
+    width: 12px;
+    padding-right: 3px;
+  }
+
+  .icon {
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
