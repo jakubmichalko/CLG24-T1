@@ -129,14 +129,11 @@ width: auto;
 box-shadow: 2px 3px 10px rgba(0, 0, 0, .5);
 }
 
-h3{
+/*h3{
   display: flex;
   justify-content: center;
 }
 
-ul{
-  flex-direction: column;
-}
 nav {
   color: white;
   background: #9e5d2b;
@@ -169,14 +166,6 @@ nav {
 
 }
 
-.n {
-    margin: 30px;
-    color: bisque;
-    text-decoration: none;
-    font-size: 25px;
-    transition-duration: 400ms;
-}
-
 
 #packy{
     width: 100px;
@@ -197,21 +186,8 @@ font-family: "Caveat Brush", cursive;
   
 }
 
-a {
-    text-decoration: none;
-    color: bisque;
-}
 
-a:hover {
-    color: rgb(242, 147, 30);
-    cursor: pointer;
 
-}
 
-.n:hover {
-    
-    transform: translateY(-5px);
-
-}
 
 
