@@ -77,3 +77,10 @@ h2 {
     width: 12px;
     padding-right: 3px;
   }
+
+  .icon {
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
