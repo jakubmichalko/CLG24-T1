@@ -15,8 +15,14 @@ h1 {
     font-size: 50px;
 }
 
+.horizontalne {
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
 h2 {
-    align-self: center;
+    justify-content: flex-start;
 }
 
 #hledani {
@@ -33,10 +39,13 @@ h2 {
 
 
 
-img {
-    width: 175px;
-    height: 175px;
+.img {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
     object-fit: cover;
+    float: right;
+    clear:both;
   }
 
 .podSebou {
