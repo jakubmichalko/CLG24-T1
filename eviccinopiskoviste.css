@@ -1,0 +1,15 @@
+nav {
+    color: white;
+    background: #914F1E;
+    
+    }
+    ul{
+        list-style:none;
+        display:flex;
+        flex-direction: row;
+        justify-items: end;
+    }
+    body{
+    font-family:sans-serif;
+    }
+    
