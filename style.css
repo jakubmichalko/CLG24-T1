@@ -1,5 +1,11 @@
 nav {
 color: white;
 background: #914F1E;
-font-family: Sofia;
+
+}
+ul{
+    list-style:none;
+}
+body{
+font-family:sans-serif;
 }
