@@ -29,6 +29,10 @@ h1 {
  ul{
     list-style: none;
  }
- a {
-    
+ a:hover {
+    color: #914F1E;
+ }
+ 
+ .Asd{
+    color: black;
  }
