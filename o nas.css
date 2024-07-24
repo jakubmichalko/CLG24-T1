@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    display: flex;
+    align-self: center;
+}
+
+h2 {
+    align-self: center;
+}
+
+#hledani {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#vybrani {
+
+}
+
+#komentare {
+    display: flex;
+    flex-direction: column;
+}

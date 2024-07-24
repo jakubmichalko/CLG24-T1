@@ -1,14 +1,18 @@
 nav {
 color: white;
 background: #914F1E;
-
+font-family: "Sofia Sans", sans-serif;
 }
+
 ul{
     list-style:none;
     display:flex;
     flex-direction: row;
     justify-items: end;
+    background-color: #E0D0C1;
 }
-body{
-font-family:sans-serif;
+
+body {
+    font-family: sans-serif;
+    background-color: #E0D0C1;
 }
