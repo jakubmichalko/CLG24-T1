@@ -29,10 +29,8 @@ h2 {
 
 }
 
-#komentare {
-    display: flex;
-    flex-direction: column;
-}
+
+
 
 
 img {
@@ -41,3 +39,9 @@ img {
     object-fit: cover;
   }
 
+.podSebou {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
