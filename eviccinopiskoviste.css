@@ -51,17 +51,25 @@ body {
     text-decoration: none;
     font-size: 25px;
 }
+
+
 #packy{
     width: 100px;
+    margin: 30px;
+    color: bisque;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 #psindr {
 align-self: center;
 text-decoration: none;
 color: bisque;
-font-size: 35px;
-
-}
+font-size: 35px; 
+font-family: "Adelica brush";
+src: ;
+font-weight: bold;
+  }
 
 a {
     text-decoration: none;
