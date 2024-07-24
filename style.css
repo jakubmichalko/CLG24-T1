@@ -5,6 +5,9 @@ background: #914F1E;
 }
 ul{
     list-style:none;
+    display:flex;
+    flex-direction: row;
+    
 }
 body{
 font-family:sans-serif;
