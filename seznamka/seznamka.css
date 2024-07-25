@@ -135,13 +135,15 @@ box-shadow: 2px 3px 10px rgba(0, 0, 0, .5);
 h3{
   display: flex;
   justify-content: center;
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 30px;
+  margin: 15px;
+
 }
 .Dogs:hover{
 opacity: 50;
 }
-p{
-  margin: 0;
-}
+
 
 /*nav {
   color: white;

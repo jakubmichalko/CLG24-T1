@@ -161,3 +161,12 @@ a:hover {
     font-size: 35px;
     font-style: normal;
 }
+
+#footer {
+    text-align: center;
+    justify-content: flex-end;
+    padding: 3px;
+    background-color: #f2e3d1;
+    color: black;
+    margin: 0;
+  }
