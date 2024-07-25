@@ -1,5 +1,5 @@
 
-
+/* Rounded sliders
 .sidebar {
     width: 250px;
     background: #DEAC80;
@@ -73,14 +73,14 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
+ 
 .slider.round {
   border-radius: 34px;
 }
 
 .slider.round:before {
   border-radius: 50%;
-}
+}*/
 
 /*pokus psi*/
 .PSI {
