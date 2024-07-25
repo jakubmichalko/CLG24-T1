@@ -110,14 +110,23 @@ body {
 }
 
 #psindr {
-    align-self: flex-start;
+    align-self: normal;
+    justify-self: normal;
     text-decoration: none;
     color: FDEEDB;
-    font-size: 50px;
+    font-size: 70px;
     font-family: "Caveat Brush", cursive;
     font-weight: 400;
     font-style: normal;
+    margin-left: 0;
+    transform: none;
     
+
+}
+
+#psindr:hover {
+    color: #FDEEDB;
+
 
 }
 

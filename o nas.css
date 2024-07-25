@@ -95,7 +95,7 @@ h2 {
 
 
 #button {
-   background: #E4CFBD;
+   background: #f2e3d1;
 }
 
 #footer {
@@ -115,5 +115,11 @@ border-color: #c6b5a5;
 margin: 2px;
 border-radius: 30px;
 padding: 10px;
+background-color: #f2e3d1;
 
+}
+
+html {
+   margin-left: 10px;
+   margin-right: 10px;
 }
