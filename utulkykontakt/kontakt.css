@@ -14,6 +14,7 @@ h1 {
 
 a:hover {
     color: #914F1E;
+    text-decoration: underline;
 }
 
 
@@ -34,12 +35,27 @@ a:hover {
     list-style: none;
     padding: 0;
     margin: 0;
-    float: left;
     padding-left: 10px;
+
 
 }
 
 iframe {
-    float: right;
-    margin-right: 100px;
+margin-bottom: 20px;
+}
+
+
+
+.footer {
+  text-align: center;
+  justify-content: flex-end;
+  padding: 3px;
+  background-color: #f2e3d1;
+  color: black;
+  margin: 0;
+}
+
+.vedleSebe {
+  display: flex;
+  justify-content: space-around;
 }
