@@ -91,7 +91,6 @@ input:checked + .slider:before {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-top: 100px;
 }
 
 .Dogs  {
@@ -139,6 +138,12 @@ box-shadow: 2px 3px 10px rgba(0, 0, 0, .5);
 h3{
   display: flex;
   justify-content: center;
+}
+.Dogs:hover{
+
+}
+p{
+  margin: 0;
 }
 
 /*nav {
