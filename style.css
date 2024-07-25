@@ -24,7 +24,6 @@ ul {
     display: flex;
     flex-direction: row;
     justify-items: end;
-    background-color: #FDEEDB;
 }
 
 body {
