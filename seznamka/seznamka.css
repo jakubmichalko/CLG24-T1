@@ -87,6 +87,7 @@ input:checked + .slider:before {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  z-index: 0;
 }
 
 .Dogs  {
@@ -142,7 +143,7 @@ h3{
 
 }
 .Dogs:hover{
-scale: 1.05;
+scale: 1.1;
 
 }
 
