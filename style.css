@@ -1,10 +1,23 @@
 html {
-    padding: 40px;
+    padding: 0px;
     font-family: "Sofia Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
+
+h1 {
+    display: flex;
+    align-self: center;
+    font-family: 'Sofia Sans';
+    font-style: normal;
+    font-weight: 1 1000;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sofiasans/v16/Yq6R-LCVXSLy9uPBwlATrO96kigt.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-size: 50px;
+    justify-content: center;
+  }
 
 ul {
 
@@ -16,7 +29,7 @@ ul {
 
 body {
     background-color: #E0D0C1;
-    margin: 2px;
+    
 }
 
 nav {
@@ -69,7 +82,6 @@ h1 {
 
 body {
     font-family: "Sofia Sans", sans-serif;
-    margin: 1%;
 }
 
 #logo {

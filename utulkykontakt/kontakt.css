@@ -30,3 +30,11 @@ a:hover {
   height: auto;
   padding-right: 3px;
 }
+
+#utulky{
+  float: left;
+}
+
+iframe{
+  float: right;
+}
