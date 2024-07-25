@@ -97,3 +97,12 @@ h2 {
 #button {
    background: #E4CFBD;
 }
+
+footer {
+    text-align: center;
+    justify-content: flex-end;
+    padding: 3px;
+    background-color: rgb(213, 191, 163);
+    color: white;
+    margin: 0;
+  }
