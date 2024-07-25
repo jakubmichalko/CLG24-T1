@@ -1,5 +1,5 @@
 
-
+/* Rounded sliders
 .sidebar {
     width: 250px;
     background: #DEAC80;
@@ -73,14 +73,14 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
+ 
 .slider.round {
   border-radius: 34px;
 }
 
 .slider.round:before {
   border-radius: 50%;
-}
+}*/
 
 /*pokus psi*/
 .PSI {
@@ -136,7 +136,7 @@ box-shadow: 2px 3px 10px rgba(0, 0, 0, .5);
 h3{
   display: flex;
   justify-content: center;
-  font-family: "Sofia Sans", sans-serif;
+  font-family: "Sofia Sans";
   font-size: 30px;
   margin: 15px;
 
