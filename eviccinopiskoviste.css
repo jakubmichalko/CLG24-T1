@@ -106,6 +106,7 @@ a:hover {
 
 footer {
     text-align: center;
+    justify-content: flex-end;
     padding: 3px;
     background-color: rgb(213, 191, 163);
     color: white;
