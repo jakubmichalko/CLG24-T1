@@ -139,6 +139,12 @@ h3{
   display: flex;
   justify-content: center;
 }
+.Dogs:hover{
+
+}
+p{
+  margin: 0;
+}
 
 /*nav {
   color: white;
