@@ -1,6 +1,6 @@
 html {
     padding: 0px;
-    font-family: "Sofia Sans", sans-serif;
+    font-family: "Sofia Sans";
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -12,7 +12,7 @@ h1 {
     font-display: swap;
     justify-content: center;
 
-    font-family: "Sofia Sans", sans-serif;
+    font-family: "Sofia Sans";
     font-weight: 700;
     font-size: 50px;
     font-style: normal;
@@ -79,7 +79,7 @@ nav {
   }
 
 body {
-    font-family: "Sofia Sans", sans-serif;
+    font-family: "Sofia Sans";
 }
 
 #logo {

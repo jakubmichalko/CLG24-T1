@@ -136,7 +136,7 @@ box-shadow: 2px 3px 10px rgba(0, 0, 0, .5);
 h3{
   display: flex;
   justify-content: center;
-  font-family: "Sofia Sans", sans-serif;
+  font-family: "Sofia Sans";
   font-size: 30px;
   margin: 15px;
 
