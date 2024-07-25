@@ -97,3 +97,27 @@ h2 {
 #button {
    background: #E4CFBD;
 }
+
+#footer {
+    text-align: center;
+    justify-content: flex-end;
+    padding: 3px;
+    background-color: #f2e3d1;
+    color: black;
+    margin: 0;
+  }
+
+.koment {
+    flex-basis: 30%;
+border-style: solid;
+border-width: 4px;
+border-color: #c6b5a5;
+margin: 2px;
+border-radius: 30px;
+padding: 10px;
+
+}
+
+color: #B6794C
+color: #E4CFBD
+color: #FDEEDB

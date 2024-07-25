@@ -83,15 +83,12 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-.nav1{
-  margin:0;
-}
+
 /*pokus psi*/
 .PSI {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
- 
 }
 
 .Dogs  {
@@ -102,6 +99,7 @@ border-color: rgb(170, 115, 49);
 margin: 2px;
 border-radius: 70px;
 padding: 10px;
+
 
 }
 li{
@@ -138,6 +136,12 @@ box-shadow: 2px 3px 10px rgba(0, 0, 0, .5);
 h3{
   display: flex;
   justify-content: center;
+}
+.Dogs:hover{
+opacity: 50;
+}
+p{
+  margin: 0;
 }
 
 /*nav {

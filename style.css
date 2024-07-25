@@ -1,27 +1,41 @@
 html {
-    padding: 40px;
+    padding: 0px;
     font-family: "Sofia Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
+h1 {
+    display: flex;
+    align-self: center;
+    font-family: 'Sofia Sans';
+    font-style: normal;
+    font-weight: 1 1000;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sofiasans/v16/Yq6R-LCVXSLy9uPBwlATrO96kigt.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-size: 50px;
+    justify-content: center;
+  }
+
 ul {
 
     display: flex;
     flex-direction: row;
     justify-items: end;
-    background-color: #E0D0C1;
+    background-color: #FDEEDB;
 }
 
 body {
-    background-color: #E0D0C1;
-    margin: 2px;
+    background-color: #FDEEDB;
+    
 }
 
 nav {
     color: #ffffff;
-    background: #914F1E;
+    background: #B6794C
+    ;
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -54,7 +68,7 @@ nav {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 20px;
-    color: bisque;
+    color: FDEEDB;
     text-decoration: none;
     transition-duration: 600ms;
 }
@@ -69,7 +83,6 @@ h1 {
 
 body {
     font-family: "Sofia Sans", sans-serif;
-    margin: 1%;
 }
 
 #logo {
@@ -94,7 +107,7 @@ body {
 #packy {
     width: 100px;
     margin: 10px;
-    color: bisque;
+    color: FDEEDB;
     text-decoration: none;
     font-size: 25px;
 }
@@ -102,7 +115,7 @@ body {
 #psindr {
     align-self: flex-start;
     text-decoration: none;
-    color: bisque;
+    color: FDEEDB;
     font-size: 50px;
     font-family: "Caveat Brush", cursive;
     font-weight: 400;
@@ -113,7 +126,7 @@ body {
 
 nav {
     color: white;
-    background: #9e5d2b;
+    background: #a96f46;
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -130,7 +143,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: bisque;
+    color: #FDEEDB;
 }
 
 a:hover {
@@ -138,6 +151,16 @@ a:hover {
     cursor: pointer;
 
 }
-text{
+.text{
+    font-family: "Sofia Sans", sans-serif;
     line-height: normal;
+    color: black;
+    font-size: 18px;
+
+}
+.lista{
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    font-style: normal;
 }
