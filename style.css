@@ -151,5 +151,15 @@ a:hover {
 
 }
 .text{
+    font-family: "Sofia Sans", sans-serif;
     line-height: normal;
+    color: black;
+    font-size: 40px;
+
+}
+.lista{
+    font-family: "Sofia Sans", sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    font-style: normal;
 }
