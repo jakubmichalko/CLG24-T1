@@ -142,7 +142,8 @@ h3{
 
 }
 .Dogs:hover{
-opacity: 50;
+scale: 1.05;
+
 }
 
 
