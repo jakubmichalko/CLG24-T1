@@ -153,8 +153,8 @@ a {
 }
 
 a:hover {
-    color: rgb(242, 147, 30);
     cursor: pointer;
+
 
 }
 .text{
